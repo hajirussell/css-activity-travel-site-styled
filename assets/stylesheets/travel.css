@@ -51,7 +51,7 @@ style the element with the id of header-statement to have centered text
   width: 100%;
   clear: both;
   padding: 5%;
-  margin: 2%, 0, 2%, 0
+  margin: 2% 0 2% 0;
 }
 /*
 style the elements with a class of page-row
@@ -227,7 +227,7 @@ nav {
 
 header a {
   text-decoration: none;
-  color: black
+  color: white
 }
 /*
  target the links inside the header element
