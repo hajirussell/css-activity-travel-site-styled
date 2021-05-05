@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  border: solid #5B6DCD 2px;
+  padding: 5px;
+}
 /*
 Set the box-sizing for every element on the page
 to border-box. Elements should have padding and 
@@ -5,7 +11,12 @@ border included in the element's total width and height
 */
 
 
-
+body {
+  background-color: black;
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+}
 /*
 Set some common styles for the body of the page
  - background color to black
@@ -15,25 +26,35 @@ Set some common styles for the body of the page
 */
 
 
-
+h1 {
+  font-size: 32px;
+}
 /*
 override our h1 style to have a font size of 32px
 */
 
 
-
+h2 {
+  font-size: 28px;
+}
 /*
 override our h2 style to have a font size of 28px
 */
 
 
-
+#header-statement {
+  text-align: center
+}
 /*
 style the element with the id of header-statement to have centered text
 */
 
 
-
+.page-row {
+  clear: both;
+  padding: 5%;
+  margin: 2%, 0, 2%, 0
+}
 /*
 style the elements with a class of page-row
  - clear: both; //ensures elements that are floated cant be on the left or right of this element
